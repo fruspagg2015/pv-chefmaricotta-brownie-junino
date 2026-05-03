@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0 --port $PORT",
     "start": "npm run preview",
-    "install": "npm install"
+    "install": "npm install --no-scripts"
   },
   "dependencies": {
     "vite": "^5.0.0"
