@@ -41,6 +41,16 @@ h1, h2, h3 {
     color: var(--accent-color);
 }
 
+.highlight-block {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 4px 15px rgba(243, 156, 18, 0.4);
+}
+
 .underline {
     text-decoration: underline;
 }
