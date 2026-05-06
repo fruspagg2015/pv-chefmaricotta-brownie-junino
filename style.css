@@ -479,9 +479,42 @@ footer p {
 /* Responsive */
 @media (max-width: 768px) {
     .main-headline {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+
+    .highlight-block {
+        padding: 5px 15px;
+        font-size: 1.3rem;
     }
     
+    .sub-headline {
+        font-size: 0.95rem;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+        width: 100%;
+        max-width: 300px;
+        line-height: 1.3;
+    }
+
+    .btn small {
+        font-size: 0.75rem;
+    }
+
+    .new-price span {
+        font-size: 2rem;
+    }
+
     .flex-row {
         flex-direction: column;
         text-align: center;
@@ -489,29 +522,51 @@ footer p {
     
     .authority-text h2 {
         text-align: center;
+        font-size: 1.3rem;
     }
     
     .bonus-card {
         flex-direction: column;
         text-align: center;
+        padding: 15px;
     }
     
     .bonus-img {
         width: 100%;
-        height: 200px;
+        height: 180px;
     }
     
     .bonus-info h3 {
         text-align: center;
+        font-size: 1.1rem;
     }
     
     .guarantee-box {
         flex-direction: column;
         text-align: center;
-        padding: 30px;
+        padding: 20px;
     }
     
     .guarantee-text h3 {
         text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .pricing-card {
+        padding: 30px 15px;
+    }
+
+    .pricing-card h3 {
+        font-size: 1rem;
+    }
+
+    .discount-badge {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .accordion-header {
+        padding: 15px;
+        font-size: 0.95rem;
     }
 }
